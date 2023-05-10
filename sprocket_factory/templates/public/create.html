@@ -1,0 +1,12 @@
+{% block content %}
+  <h1>{{ title }}</h1>
+  <form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.id.label }} {{ form.id }}
+    {{ form.teeth.label }} {{ form.teeth }}
+    {{ form.pitch_diameter.label }} {{ form.pitch_diameter }}
+    {{ form.outside_diameter.label }} {{ form.outside_diameter }}
+    {{ form.pitch.label }} {{ form.pitch }}
+    {{ form.submit }}
+  </form>
+{% endblock %}

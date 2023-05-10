@@ -1,0 +1,6 @@
+[run]
+source = sprocket_factory
+omit = 
+    tests/*
+    autoapp.py
+
